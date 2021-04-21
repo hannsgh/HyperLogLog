@@ -1,4 +1,6 @@
-
+/**
+За основу взят алгоритм Apache Cassandra
+*/
 public class HyperLogLog {
 
     private static final long Pow2_32 = 1L << 32;
