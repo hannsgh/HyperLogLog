@@ -20,7 +20,7 @@ public class App {
         }
 
         String paths = property.getProperty("paths");
-        System.out.println(" Идет анализ файла : " + property.getProperty("paths"));
+        System.out.println("Идет анализ файла : " + property.getProperty("paths"));
         try (BufferedReader br = new BufferedReader(new FileReader(new File(paths)))) {
 
             String line = br.readLine();
